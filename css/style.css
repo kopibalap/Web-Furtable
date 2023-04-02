@@ -17,7 +17,7 @@
 body {
     font-family: "Lato", sans-serif;
     background-color: var(--bg);
-    min-height: 9000px;
+    min-height: 6000px;
 }
 
 /* Navbar */
@@ -618,8 +618,8 @@ body {
 /* Produk Populer */
 
 .populer {
-    margin-top: 6.25rem;
-    justify-content: center;
+    margin: 6.25rem 7% 0 7%;
+    /* justify-content: center; */
 }
 
 .populer h1 {
@@ -635,6 +635,7 @@ body {
     justify-content: center;
     gap: 1.688rem;
     margin-top: 2.5rem;
+    
 }
   
 .populer .container .card {
@@ -643,6 +644,7 @@ body {
     background: #FFFFFF;
     box-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.12);
     border-radius: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .populer .container .card .deskripsi {
@@ -680,8 +682,7 @@ body {
     margin: 1.5rem 2rem 0 0;
 }
 
-.populer .cta {
-    margin-top: 3.75rem;
+.populer .cta a {
     padding: 1.1rem 3rem;
     background-color: var(--button);
     border-radius: 0.875rem;
@@ -690,13 +691,27 @@ body {
     max-width: 16rem;
     height: 3.75rem;
     text-align: center;
-}
-
-.populer .cta a {
     font-size: 1.125rem;
     text-decoration: none;
     color: #ffffff;
 }
+
+.populer .cta {
+    justify-content: center;
+    display: flex;
+}
+
+/* Diskon */
+
+.Diskon {
+    margin: 6.25rem 7% 0 7%;
+}
+  
+.Diskon img {
+    width: 100%;
+    height: 100%;
+}
+  
 
 
 /* Batas Homapage */
